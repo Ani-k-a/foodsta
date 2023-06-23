@@ -1,1 +1,16 @@
-@import './common';
+@import './variables/breakpoints';
+@import './variables/colors';
+@import './variables/fonts';
+
+@import './utilits/mixins';
+
+@import './base/_common';
+@import './base/container';
+@import './base/title';
+@import './base/description';
+@import './base/buttons';
+@import './base/form';
+
+@import './components/header';
+@import './components/favorites';
+@import './components/footer';

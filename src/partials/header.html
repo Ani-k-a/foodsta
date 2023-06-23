@@ -1,25 +1,31 @@
-<header id="'header">
-  <section>
+<header id="header">
+  <div class="container header-container">
     <a href="#">
       <picture class="header__picture">
         <source
           srcset="images/logo/logo_x1.png, images/logo/logo_x1.png 2x"
           type="image/png"
         />
-        <img src="images/logo/logo_x1.png" loading="lazy" alt="logo icecream" />
+        <img
+          class="logo"
+          src="images/logo/logo_x1.png"
+          loading="lazy"
+          alt="logo icecream"
+        />
       </picture>
     </a>
-    <div>
-      <nav>
-        <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Service</li>
-          <li>Menu</li>
-          <li>Contact</li>
+    <div class="navigation-block header__navigation-block">
+      <nav class="navigation">
+        <ul class="navigation__list">
+          <li class="navigation__item"><a href="#home">Home</a></li>
+          <li class="navigation__item"><a href="#about">About</a></li>
+          <li class="navigation__item"><a href="#service">Service</a></li>
+          <li class="navigation__item"><a href="#menu">Menu</a></li>
+          <li class="navigation__item"><a href="#contact">Contact</a></li>
         </ul>
       </nav>
-      <button>Order Now</button>
+      <button class="button button__green-small">Order Now</button>
     </div>
-  </section>
+    <img src="images/burger_menu.svg" class="burger-menu" />
+  </div>
 </header>

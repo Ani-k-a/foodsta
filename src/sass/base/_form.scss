@@ -1,0 +1,30 @@
+.form__input {
+  font-size: 12px;
+  border-radius: 30px;
+  border: 0.854px solid $yellow;
+  background: $white;
+  padding: 12px;
+}
+.form__input::placeholder {
+  color: #505050;
+}
+.form__lable {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  @include mq(mobile-only) {
+    margin-bottom: 32px;
+  }
+  @include mq(tablet) {
+    margin-right: 13px;
+  }
+}
+.footer__form__input {
+  margin-top: 12px;
+}
+.footer__form {
+  align-items: flex-end;
+  @include mq(tablet) {
+    display: flex;
+  }
+}
