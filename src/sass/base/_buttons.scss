@@ -6,6 +6,7 @@
   align-items: center;
   border-radius: 30px;
   padding: 10px 22px;
+  line-height: 1;
 }
 
 .button__green-small {
@@ -39,6 +40,7 @@
   border: 0.854px solid $dark-green;
   background: $white;
   height: 42px;
+  font-size: 12px;
 }
 
 .button__yellow:hover,

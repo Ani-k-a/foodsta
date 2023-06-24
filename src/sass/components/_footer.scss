@@ -18,6 +18,7 @@
   margin-bottom: 60px;
   @include mq(desktop) {
     margin-bottom: 100px;
+    display: flex;
   }
 
   @include mq(desktop) {
@@ -28,6 +29,7 @@
 }
 .footer__menu {
   display: flex;
+  margin-bottom: 40px;
   @include mq(tablet) {
     align-items: center;
   }
@@ -50,13 +52,20 @@
   }
 }
 .privacy {
-  font-size: 14px;
+  font-size: 10px;
+  display: flex;
 }
 .privacy__link {
   color: $green;
+  margin-left: 5px;
+}
+.privacy__link:hover,
+.privacy__link:focus {
+  color: $dark-green;
 }
 
 .policy {
+  font-size: 10px;
   display: flex;
   @include mq(mobile-only) {
     align-items: center;
@@ -82,4 +91,11 @@
 .policy__item:hover,
 .policy__item:focus {
   color: $dark-green;
+}
+.btn-footer {
+  @include mq(mobile-only) {
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+  }
 }

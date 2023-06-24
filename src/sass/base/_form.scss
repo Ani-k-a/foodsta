@@ -7,6 +7,7 @@
 }
 .form__input::placeholder {
   color: #505050;
+  font-size: 12px;
 }
 .form__lable {
   font-size: 14px;
@@ -21,10 +22,15 @@
 }
 .footer__form__input {
   margin-top: 12px;
+  @include mq(tablet) {
+    width: 280px;
+  }
 }
 .footer__form {
+  margin-bottom: 20px;
   align-items: flex-end;
   @include mq(tablet) {
+    margin-bottom: 12px;
     display: flex;
   }
 }
