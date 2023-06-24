@@ -97,6 +97,10 @@
     margin-bottom: auto;
   }
 }
+.apples {
+  display: flex;
+  align-items: flex-end;
+}
 
 .apple__circle {
   position: relative;

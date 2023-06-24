@@ -29,16 +29,20 @@
         </div>
       </div>
       <div>
-        <form class="form footer__form">
+        <form class="form footer__form" id="footer-form">
           <label class="form__lable"
             >Subscribe
             <input
+              name="email"
+              required
               type="email"
               placeholder="Enter your email"
               class="form__input footer__form__input"
             />
           </label>
-          <button class="button button__yellow btn-footer">Subscribe</button>
+          <button class="button button__yellow btn-footer" type="submit">
+            Subscribe
+          </button>
         </form>
         <div class="privacy">
           <p>By subscribing you agree to with our</p>

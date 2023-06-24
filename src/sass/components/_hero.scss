@@ -1,0 +1,26 @@
+.container__hero {
+  padding-top: 132px;
+  @include mq(desktop) {
+    padding-top: 231px;
+  }
+}
+.hero__title {
+  @include mq(tablet) {
+    width: 527px;
+  }
+  @include mq(desktop) {
+    width: 502px;
+    font-size: 48px;
+  }
+}
+.hero_box {
+  display: flex;
+}
+.hero__info {
+  @include mq(tablet) {
+    width: 336px;
+  }
+  @include mq(desktop) {
+    width: 502px;
+  }
+}
