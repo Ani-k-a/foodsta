@@ -1,7 +1,7 @@
 
 const btnHeader = document.querySelector('#btn-header');
 const btnHero = document.querySelector('#btn-hero');
-const btnOffers = document.querySelector('#btn-hero');
+const btnOffers = document.querySelector('#btn-offers');
 const backdrop = document.querySelector('.backdrop');
 const title = document.querySelector('.modal__title');
 const form = document.querySelector('.order');

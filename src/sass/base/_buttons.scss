@@ -35,6 +35,11 @@
 .button__white:focus {
   border-color: $black-green;
 }
+#btn-header {
+  @include mq(mobile-only) {
+    display: none;
+  }
+}
 
 .button__yellow {
   border: 0.854px solid $dark-green;
