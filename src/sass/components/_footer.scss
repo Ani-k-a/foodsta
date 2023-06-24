@@ -5,13 +5,22 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  @include mq(retina) {
+    background-image: url(../images/footer-background/bg_mobx2.jpg);
+  }
 
   background-position: bottom;
   @include mq(tablet) {
     background-image: url(../images/footer-background/bg_tab.jpg);
+    @include mq(retina) {
+      background-image: url(../images/footer-background/bg_tabx2.jpg);
+    }
   }
   @include mq(desktop) {
     background-image: url(../images/footer-background/bg_desk.jpg);
+    @include mq(retina) {
+      background-image: url(../images/footer-background/bg_deskx2.jpg);
+    }
   }
 }
 .footer__block {

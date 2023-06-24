@@ -3,12 +3,12 @@
   background-size: 100% 100%;
   background-image: url(../images/background/mobile310/Rectangle701.png);
   @include mq(retina) {
-    background-image: url(../images/background/mobile310/Rectangle701.png);
+    background-image: url(../images/background/mobile310/Rectangle701x2.png);
   }
   @include mq(mobile) {
     background-image: url(../images/background/mobile480/Rectangle720.png);
     @include mq(retina) {
-      background-image: url(../images/background/mobile480/Rectangle720.png);
+      background-image: url(../images/background/mobile480/Rectangle720x2.png);
     }
   }
   @include mq(tablet) {
@@ -44,7 +44,6 @@
   }
   @include mq(desktop) {
     gap: 139px;
-
     justify-content: flex-start;
   }
 }
@@ -58,6 +57,7 @@
   @include mq(desktop) {
     border-radius: 0px 30px 30px 30px;
     padding: 15px;
+    width: 500px;
   }
 }
 .raiting__img {
