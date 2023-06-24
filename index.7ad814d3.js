@@ -1,0 +1,2 @@
+const e=document.querySelector(".burger-menu"),o=document.querySelector(".header__navigation-block "),t=document.querySelector(".icon-close"),l=document.querySelector(".navigation__list"),n=document.querySelectorAll(".navigation__item");console.log(n);e.addEventListener("click",(()=>{o.classList.add("open"),t.style.display="block",l.classList.add("open-list"),t.addEventListener("click",(()=>{o.classList.remove("open"),t.style.display="none",l.classList.remove("open-list")}))}));
+//# sourceMappingURL=index.7ad814d3.js.map

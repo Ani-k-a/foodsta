@@ -1,0 +1,2 @@
+!function(){var e=document.querySelector(".burger-menu"),n=document.querySelector(".header__navigation-block "),o=document.querySelector(".icon-close"),t=document.querySelector(".navigation__list"),c=document.querySelectorAll(".navigation__item");console.log(c);e.addEventListener("click",(function(){n.classList.add("open"),o.style.display="block",t.classList.add("open-list"),o.addEventListener("click",(function(){n.classList.remove("open"),o.style.display="none",t.classList.remove("open-list")}))}))}();
+//# sourceMappingURL=index.bb481ea8.js.map
