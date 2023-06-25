@@ -1,11 +1,9 @@
 const btnBurger = document.querySelector('.burger-menu');
 const navigation = document.querySelector('.header__navigation-block ');
 const icon = document.querySelector('.icon-close');
-const list = document.querySelector('.navigation__list');
-const items = document.querySelectorAll('.navigation__item');
-const nav = document.querySelector('.navigation');
-
-console.log(items);
+const list = document.querySelector('.navigation__list-header');
+const items = document.querySelectorAll('.navigation__item-header');
+const nav = document.querySelector('.navigation-header');
 
 const onBurgerClick = () => {
     navigation.classList.add('open');
