@@ -1,6 +1,7 @@
 .container__hero {
   padding-top: 132px;
   padding-bottom: 50px;
+  position: relative;
   @include mq(desktop) {
     padding-top: 86px;
     display: flex;
@@ -38,11 +39,12 @@
     position: absolute;
     top: 221px;
     width: 292px;
-    right: 10%;
+    right: 30px;
   }
   @include mq(desktop) {
     top: 86px;
     width: 528px;
+    right: 15px;
   }
 }
 .slider__item {
